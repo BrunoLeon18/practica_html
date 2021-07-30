@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+main{
+    margin: 30px;
+  
+}
+header{
+    background-color: red;
+}
+strong a{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+nav{
+    background-color: #ccc;
+    float: right;
+    margin: 10px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color:#444;
+    padding: 10px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: tomato;
+
+}
+
+form{
+    width: 49%;
+    display: inline-block;
+}
+section {
+    width: 49%;
+    height: 620px;
+    float: right;
+}
+section h2{
+    padding-bottom: 20px;
+}
+#name, #age, #email, #comments{
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+}
+#tech, #politic, #moda{
+    margin: 10px;
+}
+select{
+    width: 200px;
+    margin: 30px 0 30px;
+    padding: 5px;
+}
+#sexm{
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#sexf{
+    margin-left: 10px;
+}
+ #intereses h2{
+     margin-bottom: 20px;
+ }
+ button{
+     margin-top: 10px;
+     margin-left: 5px;
+     padding: 10px;
+     width: 150px;
+     background-color: red;
+     color: white;
+     border-radius: 10px;
+ }
+ footer{
+     clear: both;
+     padding: 20px;
+     background-color: red;
+     color: white;
+     font-weight: bold;
+ }
+ img{
+     margin: 30px;
+ }
+ p{
+     margin: 30px 0;
+     font-weight: bold;
+ }
